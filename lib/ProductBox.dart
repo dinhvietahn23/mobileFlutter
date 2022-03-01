@@ -116,11 +116,83 @@ class ProductBox extends StatelessWidget{
                     padding: EdgeInsets.all(5), child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
-                        Text(this.name, style: TextStyle(fontWeight: FontWeight.bold)), Text(this.description), Text("Price: " + price.toString()),
+                        Text(this.name, style: TextStyle(fontWeight: FontWeight.bold)),
+                        Text(this.description),
+                        Text("Price: " + price.toString()),
+                        RatingBox()
               ], )
             ) )
       ]
       ) )
   ); }
-
 }
+
+ class RatingBox extends StatefulWidget{
+  @override
+  State<RatingBox> createState() => _RatingBox();
+ }
+
+ class _RatingBox extends State<RatingBox> {
+  int rating = 0;
+
+  void setRatingAsOne() {
+    setState(() {
+      rating = 1;
+    });
+  }
+
+  void setRatingAsTwo() {
+    setState(() {
+      rating = 2;
+    });
+  }
+
+  void setRatingAsThree() {
+    setState(() {
+      rating = 3;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    double sizeStar = 20;
+    print(rating);
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.end,
+      crossAxisAlignment: CrossAxisAlignment.end,
+      mainAxisSize: MainAxisSize.max,
+        children: <Widget>[
+          Container(
+            padding: EdgeInsets.all(0),
+            child: IconButton(
+              icon: (rating >= 1 ? Icon(Icons.star, size: sizeStar,) :Icon(Icons.star_border, size: sizeStar,)),
+              color: Colors.red[500],
+              onPressed: setRatingAsOne,
+              iconSize: sizeStar,
+            ),
+          ),
+
+          Container(
+            padding: EdgeInsets.all(0),
+            child: IconButton(
+              icon: (rating >= 2 ? Icon(Icons.star, size: sizeStar,) :Icon(Icons.star_border, size: sizeStar,)),
+              color: Colors.red[500],
+              onPressed: setRatingAsTwo,
+              iconSize: sizeStar,
+            ),
+          ),
+
+          Container(
+            padding: EdgeInsets.all(0),
+            child: IconButton(
+              icon: (rating >= 3 ? Icon(Icons.star, size: sizeStar,) :Icon(Icons.star_border, size: sizeStar,)),
+              color: Colors.red[500],
+              onPressed: setRatingAsThree,
+              iconSize: sizeStar,
+            ),
+          ),
+        ]
+    );
+  }
+
+ }
