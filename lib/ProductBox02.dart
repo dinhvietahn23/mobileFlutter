@@ -13,7 +13,7 @@ class Product {
   static List<Product> getProducts() {
     List<Product> items = <Product>[];
     items.add(Product(
-        "Pixel", "Pixel is the most featureful phone ever", 800, "pixel.jpg"));
+        "Pixel", "Pixel is the most featursseful phone ever", 800, "pixel.jpg"));
 
     items.add(Product(
         "iPhone", "iPhone is the stylist phone ever", 1000, "iphone.jpg"));
