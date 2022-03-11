@@ -12,7 +12,7 @@
     <img width="1440" alt="Screen Shot 2022-03-11 at 13 24 08" src="https://user-images.githubusercontent.com/63334287/157814061-544d8039-3183-4eee-8fd7-5402112f1a5a.png">
 - 04/03/2022: Bài 13 - Animation
     <img width="1440" alt="Screen Shot 2022-03-11 at 13 28 17" src="https://user-images.githubusercontent.com/63334287/157814490-5879c08f-5b5d-4dc2-afdb-96958a7e6e03.png">
-- B14: Code với native Android (Link github:)
+- B14: Code với native Android (Link github: https://github.com/dinhvietahn23/chapter14_flutter_homework_)
     <img width="1440" alt="Screen Shot 2022-03-11 at 13 44 47" src="https://user-images.githubusercontent.com/63334287/157816473-b32bb79c-0bac-4e81-9de1-7fd377bc1bb6.png">
     <img width="1440" alt="Screen Shot 2022-03-11 at 13 44 58" src="https://user-images.githubusercontent.com/63334287/157816480-3fadf11a-f7a9-4897-9071-d401d6d1acdc.png">
 - B17: REST API
