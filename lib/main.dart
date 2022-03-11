@@ -35,7 +35,7 @@ class MyHomePageState_ extends State<MyHomePage> {
         padding: EdgeInsets.all(25),
         child: Center(
           child:Text(
-            'Hello World',
+            'Hello Worlss d',
             style: TextStyle(
               color: Colors.white, letterSpacing: 0.5, fontSize: 30,
             ),
