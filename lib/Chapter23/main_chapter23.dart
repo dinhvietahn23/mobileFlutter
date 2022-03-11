@@ -171,7 +171,7 @@ class _FormPageState extends State<FormPage> {
                 labelStyle: TextStyle(fontSize: 18),
               ),
               validator: (val) {
-                Pattern pattern = r'^((?:19|20)\d\d)[- /.](0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])$';
+                //Pattern pattern = r'^((?:19|20)\d\d)[- /.](0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])$';
                 RegExp regex = new RegExp(r'^((?:19|20)\d\d)[- /.](0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])$');
                 if (!regex.hasMatch(val!)) return 'Enter a valid date';
                 else return null;
