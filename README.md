@@ -1,19 +1,9 @@
 # Cập nhật tiến độ
+- B1: Giới thiệu flutter
+- B2: Cài đặt flutter
+- B3: Tạo ứng dụng đầu tiên
+<img width="1419" alt="Screen Shot 2022-03-11 at 13 00 57" src="https://user-images.githubusercontent.com/63334287/157811765-48a21a5c-f1a0-4de7-b3fc-f62aa80d5b54.png">
+
 04/03/2022: Bài 13 - Animation
-# hello_world
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 
